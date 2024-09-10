@@ -12,7 +12,8 @@ public class Lab {
      * Notice that errors are separate from exceptions. Errors are external to Java and can occur when some external
      * event happens, like running out of computer memory.
      */
-    public void throwUncheckedException(){
-
+    public void throwUncheckedException() {
+        int[] array = new int[1]; // Creating a small array
+        System.out.println(array[2]); // Accessing an index out of the array's bounds
     }
 }
